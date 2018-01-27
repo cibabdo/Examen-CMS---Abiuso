@@ -125,4 +125,35 @@ if( $images ): ?>
         </section>
         <!-- section close -->
 
+        <!-- TROISIEME SECTION -->
+        <section>
+            <!-- Container Begin -->
+            <div class="container">
+
+                <div class="row">
+                    <?php while (have_rows('homesection3_repetaer')):the_row();
+                        $icone = get_sub_field('homesection3_icone');
+                        $titre = get_sub_field('homesection3_titre');
+                        $wysy = get_sub_field('homesection3_wys');
+                    ?>
+                    <div class="col-md-4">
+                        <div class="service-box service-style2">
+                            <img src="<?php echo $icone; ?>" alt="<?php echo $icone; ?>" class="img-responsive">
+                            <div class="service-content">
+                                <h3><?php echo $titre; ?></h3>
+                                <p><?php echo $wysy; ?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endwhile; ?>
+                </div>
+            </div>
+            <!-- Container End -->
+        </section>
+        <!-- section close -->
+
+    </div>
+    <!-- content close -->
+
+
 <?php get_footer(); ?>
