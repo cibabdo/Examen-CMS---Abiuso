@@ -77,5 +77,52 @@ if( $images ): ?>
         </section>
         <!-- section close -->
 
+        <!-- DEUXIEME SECTION -->
+        <section id="section-project" class="no-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="latest-projects clearfix">
+                            <div class="latest-projects-intro">
+                                <!-- METTRE CLE DE TRADUCTION -->
+                                <h2 class="box-title"><?php _e('Derniers articles')?></h2>
+                                <div class="tiny-border-light"></div>
+                                <!-- METTRE CLE DE TRADUCTION -->
+                                <p><?php _e( 'Pellentesque gravida diam orci, vitae venenatis est eleifend sed. Proin non pretium turpis') ?></p>
+                            </div>
+                            <div class="latest-projects-wrapper">
+                                <div id="latest-projects-items" class="latest-projects-items">
+                                    <?php
+                                    $args = array(
+                                        'orderby' => 'post_date',
+                                        'order'   => 'ASC',
+                                    );
+                                    $recentPosts = new WP_Query($args);
+                                    $recentPosts->query('showposts=6');
+                                    ?>
+                                    <?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
+                                    <div class="item">
+                                        <img src="<?php the_field('articleImage') ?>" alt="<?php the_field('articleImage') ?>" class="img-responsive">
+                                        <div class="project-details">
+                                            <p class="folio-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></p>
+                                            <p class="folio-cate"><i class="fa fa-tag"></i><a href="<?php the_permalink(); ?>"><?php the_category('/'); ?></a></p>
+                                            <div class="folio-buttons">
+                                                <a href="<?php the_field('articleImage') ?>" title="<?php the_title(); ?>" class="folio"><i class="fa fa-search"></i></a>
+                                                <a href="#"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php endwhile; ?>
+                                    <!-- A utiliser quand plusieurs boucles présente sur la page -->
+                                    <!-- Remet à zero le compteur -->
+                                    <?php wp_reset_postdata(); ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section close -->
 
 <?php get_footer(); ?>
