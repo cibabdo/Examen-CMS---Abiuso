@@ -45,4 +45,37 @@ if( $images ): ?>
     </div>
     <!-- slider close -->
 
+    <div class="clearfix"></div>
+
+    <!-- content begin -->
+    <div id="content" class="no-padding">
+
+        <!-- PREMIERE SECTION -->
+        <section id="section-about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <?php
+
+                        $image = get_field('homesect1_image');
+
+                        if( !empty($image) ): ?>
+
+                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive"/>
+
+                        <?php endif; ?>
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                        <div class="about-box">
+                            <h2 class="box-title"><?php the_field('homesect1_titre'); ?></h2>
+                            <div class="tiny-border"></div>
+                            <?php the_field('homesect1_wys'); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section close -->
+
+
 <?php get_footer(); ?>
