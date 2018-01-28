@@ -59,6 +59,37 @@
                     <!-- post close -->
                 </div>
 
-
+<!-- SECTION WIDGET & MENU -->
+            </div>
+            <div class="col-md-3">
+                <div class="main-sidebar">
+                    <aside class="widget widget_text">
+                        <!-- mettre clé de traduction -->
+                        <h3 class="widget-title"><?php _e('About') ?></h3>
+                        <div class="tiny-border"></div>
+                        <div class="textwidget">
+                            <p>
+                                <?php dynamic_sidebar('sidebar1');?>
+                            </p>
+                        </div>
+                    </aside>
+                    <aside class="widget widget_categories">
+                        <!-- mettre clé de traduction -->
+                        <h3 class="widget-title"><?php _e('Categories') ?></h3>
+                        <div class="tiny-border"></div>
+                        <?php
+                        $args = array(
+                            'menu' => 'menu_sidebar',
+                            'container' => 'ul',
+                            'menu_class' => 'cat-item',
+                        );
+                        wp_nav_menu($args); ?>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- content close -->
 
 <?php get_footer(); ?>
