@@ -8,9 +8,9 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="compact-widget">
                         <div class="widget-inner">
-                            <!-- METTRE CLE DE TRADUCTION -->
+                            <!-- METTRE WIDGET -->
                             <h3 class="widget-title"><?php _e('Résumé')?></h3>
-                            <p><?php _e('Compact is a clean PSD theme suitable for corporate, You can customize it very easy to fit your needs, semper suscipit metus accumsan at. Vestibulum et lacus urna. Nam luctus ac tortor eu')?></p>
+                            <?php dynamic_sidebar('sidebar2');?>
                             <!-- AJOUT DES LIENS VERS RESEAUX SOCIAUX -->
 							<div class="social-icons clearfix">
                                 <a href="http://www.facebook.com" class="facebook tipped" data-title="facebook"  data-tipper-options='{"direction":"top","follow":"true"}'><i class="fa fa-facebook"></i></a>
