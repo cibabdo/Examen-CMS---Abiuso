@@ -33,6 +33,22 @@
     </section>
     <!-- section close -->
 
-    
+    <!-- DEUXIEME SECTION -->
+    <!-- section begin -->
+    <section id="section-about" class="margin-top-80">
+        <div class="container">
+            <div class="row">
+                <?php while ( have_rows('propossect2_repetear') ) : the_row(); ?>
+                <div class="col-md-4">
+                    <h5><?php the_sub_field('propossect2_titre'); ?></h5>
+                    <p><?php the_sub_field('propossect2_txt');?></p>
+                </div>
+                <?php endwhile; ?>
+            </div>
+        </div>
+    </section>
+    <!-- section close -->
+
+
 
 <?php get_footer(); ?>
