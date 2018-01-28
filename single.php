@@ -16,5 +16,18 @@
     </div>
 </section>
 
+<!-- DEUXIEME SECTION -->
+<!-- content begin -->
+<div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="blog-single">
+                    <!-- post begin -->
+                    <article>
+                        <div class="post-media">
+                            <img src="<?php the_field('articleImage') ?>" class="img-responsive">
+                        </div>
+
 
 <?php get_footer(); ?>
