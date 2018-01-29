@@ -80,7 +80,7 @@
                             <div class="header-contact">
                                 <ul class="clearfix">
                                     <!-- mettre clé de traduction -->
-                                    <li class="phone"><i class="fa fa-phone"></i> <span><?php _e('0112-826-2789')?></span></li>
+                                    <li class="phone"><i class="fa fa-phone"></i> <span><?php _e('0112-826-2789','wp-theme-base')?></span></li>
                                     <li class="border-line">|</li>
                                 </ul>
                             </div>

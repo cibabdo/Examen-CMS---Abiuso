@@ -9,7 +9,7 @@
                     <div class="compact-widget">
                         <div class="widget-inner">
                             <!-- METTRE WIDGET -->
-                            <h3 class="widget-title"><?php _e('Résumé')?></h3>
+                            <h3 class="widget-title"><?php _e('Résumé','wp-theme-base')?></h3>
                             <?php dynamic_sidebar('sidebar2');?>
                             <!-- AJOUT DES LIENS VERS RESEAUX SOCIAUX -->
 							<div class="social-icons clearfix">
@@ -26,7 +26,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="compact-widget">
                         <!-- METTRE CLE DE TRADUCTION -->
-                        <h3 class="widget-title"><?php _e('Catégorie')?></h3>
+                        <h3 class="widget-title"><?php _e('Catégorie','wp-theme-base')?></h3>
                         <div class="widget-inner">
                             <?php
                             $args = array(
@@ -43,13 +43,13 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="compact-widget">
                         <!-- METTRE CLE DE TRADUCTION -->
-                        <h3 class="widget-title"><?php _e('contact')?></h3>
+                        <h3 class="widget-title"><?php _e('contact','wp-theme-base')?></h3>
                         <div class="widget-inner">
                             <!-- METTRE CLE DE TRADUCTION -->
-                            <p><?php _e('Address: 379 5th Ave  New York, NYC 10018, United States') ?></p>
-                            <p><?php _e('Phone: +(112) 345 6879')?></p>
-                            <p><?php _e('Fax: +(112) 345 8796')?></p>
-                            <p><?php _e('Email: contact@compact.com')?></p>
+                            <p><?php _e('Address: 379 5th Ave  New York, NYC 10018, United States','wp-theme-base') ?></p>
+                            <p><?php _e('Phone: +(112) 345 6879','wp-theme-base')?></p>
+                            <p><?php _e('Fax: +(112) 345 8796','wp-theme-base')?></p>
+                            <p><?php _e('Email: contact@compact.com','wp-theme-base')?></p>
                         </div>
                     </div>
                 </div>
@@ -57,14 +57,14 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="compact-widget">
                         <!-- METTRE CLE DE TRADUCTION -->
-                        <h3 class="widget-title"><?php _e('Newsletter') ?></h3>
+                        <h3 class="widget-title"><?php _e('Newsletter','wp-theme-base') ?></h3>
                         <div class="widget-inner">
                             <div class="newsletter newsletter-widget">
                                 <!-- METTRE CLE DE TRADUCTION -->
-                                <p><?php _e('Stay informed about our news and events') ?></p>
+                                <p><?php _e('Stay informed about our news and events','wp-theme-base') ?></p>
                                 <form action="" method="post">
-                                    <p><input class="newsletter-email" type="email" name="email" placeholder="<?php _e('Your email') ?>"><i class="fa fa-envelope-o"></i></p>
-                                    <p><input class="newsletter-submit" type="submit" value="<?php _e('Subscribe') ?>"></p>
+                                    <p><input class="newsletter-email" type="email" name="email" placeholder="<?php _e('Your email','wp-theme-base') ?>"><i class="fa fa-envelope-o"></i></p>
+                                    <p><input class="newsletter-submit" type="submit" value="<?php _e('Subscribe','wp-theme-base') ?>"></p>
                                 </form>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <!-- METTRE CLE DE TRADUCTION -->
-                    <?php _e('Copyright &copy; 2016 Designed by AuThemes. All rights reserved.')?>
+                    <?php _e('Copyright &copy; 2016 Designed by AuThemes. All rights reserved.','wp-theme-base')?>
                 </div>
             </div>
         </div>
