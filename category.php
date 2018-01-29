@@ -4,14 +4,14 @@
             <div class="row">
                 <div class="col-md-12">
                     <!-- mettre clé de traduction -->
-                    <h1><?php _e('Blog List')?></h1>
+                    <h1><?php _e('Blog List','wp-theme-base')?></h1>
                     <ul class="breadcrumbs">
                         <!-- mettre clé de traduction -->
                         <!-- mettre lien vers frontpage -->
-                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e('Home')?></a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e('Home','wp-theme-base')?></a></li>
                         <b>/</b>
                         <!-- mettre clé de traduction -->
-                        <li class="active"><?php _e('Blog List')?></li>
+                        <li class="active"><?php _e('Blog List','wp-theme-base')?></li>
                     </ul>
                 </div>
             </div>

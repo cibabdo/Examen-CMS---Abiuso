@@ -85,10 +85,10 @@ if( $images ): ?>
                         <div class="latest-projects clearfix">
                             <div class="latest-projects-intro">
                                 <!-- METTRE CLE DE TRADUCTION -->
-                                <h2 class="box-title"><?php _e('Derniers articles')?></h2>
+                                <h2 class="box-title"><?php _e('Derniers articles','wp-theme-base')?></h2>
                                 <div class="tiny-border-light"></div>
                                 <!-- METTRE CLE DE TRADUCTION -->
-                                <p><?php _e( 'Pellentesque gravida diam orci, vitae venenatis est eleifend sed. Proin non pretium turpis') ?></p>
+                                <p><?php _e( 'Pellentesque gravida diam orci, vitae venenatis est eleifend sed. Proin non pretium turpis','wp-theme-base') ?></p>
                             </div>
                             <div class="latest-projects-wrapper">
                                 <div id="latest-projects-items" class="latest-projects-items">

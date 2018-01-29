@@ -7,7 +7,7 @@
             <div class="col-md-12" >
                 <h1><?php the_title() ?></h1>
                 <ul class="breadcrumbs">
-                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e('Home')?></a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e('Home','wp-theme-base')?></a></li>
                     <b>/</b>
                     <li class="active"><?php the_title() ?></li>
                 </ul>
@@ -65,7 +65,7 @@
                 <div class="main-sidebar">
                     <aside class="widget widget_text">
                         <!-- mettre clé de traduction -->
-                        <h3 class="widget-title"><?php _e('About') ?></h3>
+                        <h3 class="widget-title"><?php _e('About','wp-theme-base') ?></h3>
                         <div class="tiny-border"></div>
                         <div class="textwidget">
                             <p>
@@ -75,7 +75,7 @@
                     </aside>
                     <aside class="widget widget_categories">
                         <!-- mettre clé de traduction -->
-                        <h3 class="widget-title"><?php _e('Categories') ?></h3>
+                        <h3 class="widget-title"><?php _e('Categories','wp-theme-base') ?></h3>
                         <div class="tiny-border"></div>
                         <?php
                         $args = array(
