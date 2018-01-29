@@ -44,7 +44,7 @@ function pdw_theme_setup(){
 //defini google map api
 function my_acf_init() {
 
-    acf_update_setting('google_api_key', 'AIzaSyCE9l7ZV9tYSiTv8EnOpVS4gpN_8wnqSBw');
+    acf_update_setting('google_api_key', 'AIzaSyBapouOrfm2jTaSd98T1CoI6zfNj93yke8');
 }
 
 add_action('acf/init', 'my_acf_init');
