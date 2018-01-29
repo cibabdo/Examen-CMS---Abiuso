@@ -17,7 +17,7 @@
     <!-- color scheme -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/switcher/demo.css" type="text/css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/switcher/colors/blue.css" type="text/css" id="colors">
-
+    <script src="<?php echo get_stylesheet_directory_uri() ?>/js/jquery.min.js"></script>
 </head>
 
 <body>
