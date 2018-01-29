@@ -16,5 +16,16 @@
                     </div>
                     <?php endwhile; ?>
 
+<!-- DEUXIEME SECTION -->
+                    <div class="wpcf7-form">
+                        <?php the_field('formulaire'); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section close -->
+
+
 
 <?php get_footer(); ?>
