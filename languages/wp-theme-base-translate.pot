@@ -1,0 +1,79 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-30 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: functions.php:57
+msgid "Bloc de texte exemple"
+msgstr ""
+
+#: functions.php:59
+msgid "Ajout d'un bloc texte ou autre sur le site"
+msgstr ""
+
+#: footer.php:61
+msgid "Mon - Tues"
+msgstr ""
+
+#: footer.php:62
+msgid "6.00 am - 10.00 pm"
+msgstr ""
+
+#: footer.php:64
+msgid "Wednes - Thurs"
+msgstr ""
+
+#: footer.php:65
+msgid "8.00 am - 6.00 pm"
+msgstr ""
+
+#: footer.php:67
+msgid "Fri"
+msgstr ""
+
+#: footer.php:68
+msgid "3.00 pm - 8.00 pm"
+msgstr ""
+
+#: footer.php:70
+msgid "Sun"
+msgstr ""
+
+#: footer.php:71
+msgid "Close"
+msgstr ""
+
+#: footer.php:80
+msgid "About"
+msgstr ""
+
+#. Name of the template
+msgid "Contact"
+msgstr ""
+
+#. Name of the theme
+msgid "Thème de base"
+msgstr ""
+
+#. Description of the theme
+msgid "Thème de base WordPress réalisé par Abiuso Donato"
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.google.be"
+msgstr ""
+
+#. Author of the theme
+msgid "AbiusoDonato"
+msgstr ""
